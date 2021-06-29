@@ -1,4 +1,3 @@
-
 /**
  * @author 侯易杭
  * @date 2021_06_29
@@ -17,7 +16,9 @@ class FormatException extends RuntimeException {
 public class Company {
     private ArrayList<Employee> employees = new ArrayList<Employee>();
     private ArrayList<DataInfo> dataInfos = new ArrayList<DataInfo>();
-
+/**
+ * 
+ */
     public void init() {
         FileInputStream fs = null;
         try {

@@ -1,8 +1,7 @@
+
 import java.util.Date;
 import java.text.*;
 /**
- * @author 侯易杭
- * @date 2021_06_29
  */
 public class DataInfo {
     private int id = 0; // 工号
@@ -12,9 +11,17 @@ public class DataInfo {
         this.id = id;
     }
     public DataInfo(){}
+    /**
+     * 
+     * @return
+     */
     public boolean is_valid() {
         return Employee.valid_id(id);
     }
+    /**
+     * 
+     * @return
+     */
     public boolean hasSignUp(){
         return signUpDate.getTime() != 0;
     }

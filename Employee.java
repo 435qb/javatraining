@@ -5,7 +5,11 @@
 public class Employee {
     private int id = 0; // 工号
     private String name = null; // 姓名
-
+/**
+ * 
+ * @param id
+ * @param name
+ */
     public Employee(int id, String name) {
         this.id = id;
         this.name = name;
@@ -13,7 +17,11 @@ public class Employee {
 
     public Employee() {
     }
-
+/**
+ * 
+ * @param id
+ * @return
+ */
     public static boolean valid_id(int id) {
         return id > 0 && id <= 999;
     }

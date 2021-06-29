@@ -1,0 +1,19 @@
+{
+    "doxdocgen.file.fileOrder": [
+        "file",
+        "brief",
+        "author",
+        "date",
+        "empty"
+    ],
+    "doxdocgen.generic.authorEmail": "2920077696@qq.com",
+    "doxdocgen.generic.authorName": "侯易杭",
+    "java.codeGeneration.generateComments": true,
+    "java.templates.fileHeader": [
+        "/**",
+        " * @author 侯易杭",
+        " * @date ${year}_${month}_${day}",
+        " */",
+        "",
+    ]
+}
